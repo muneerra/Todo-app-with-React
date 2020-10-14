@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #90F1EF;
+}
+.todoApp {
+  background-color: #FFEF9F;
+  min-height: 500px;
+  margin: 40px auto;
+  width: 400px;
+  border-radius: 10px;
+}
+.todoApp h2 {
+  color: #585858;
+  padding: 20px;
+}
+#todoList input {
+  background-color: #fff;
+  border: 0;
+  margin: 20px;
+  padding: 0 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+#todoList input::placeholder {
+  color: #777777;
+}
+#todoList input:focus, #todoList button:focus {
+  outline: none;
+}
+#todoList button {
+  height: 50px;
+  width: 80px;
+  border-radius: 8px;
+  border: none;
+  background-color: #7BF1A8;
+  cursor: pointer;
+  font-weight: bold;
+  color: #777777;
+  font-size: 18px;
+}
+
